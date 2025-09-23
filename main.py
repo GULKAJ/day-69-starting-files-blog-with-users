@@ -13,11 +13,10 @@ from functools import wraps
 from werkzeug.security import generate_password_hash, check_password_hash
 # Import your forms from the forms.py
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
-from dotenv import load_dotenv
+
 import os
 
 
-load_dotenv()
 '''
 Make sure the required packages are installed: 
 Open the Terminal in PyCharm (bottom left). 
